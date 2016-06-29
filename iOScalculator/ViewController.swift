@@ -96,11 +96,11 @@ class ViewController: UIViewController {
 
     }
     @IBAction func tuige(sender: AnyObject) {
-        var d=x.text!
-        if(d != ""){
-            d.removeAtIndex(d.endIndex.predecessor())
-            x.text=d
-            w=""
+        
+        if(w != ""){
+            w.removeAtIndex(w.endIndex.predecessor())
+            x.text=w
+           
         }
         else{
             x.text="0"
